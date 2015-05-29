@@ -1,6 +1,7 @@
 # OpenLocationCode
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/open_location_code`. To experiment with that code, run `bin/console` for an interactive prompt.
+Open Location Codes are a way of encoding location into a form that is
+easier to use than latitude and longitude.
 
 Ref:  https://github.com/google/open-location-code
 
@@ -27,7 +28,7 @@ Or install it yourself as:
   code = OpenLocationCode.encode(47.365590, 8.524997) # 8FVC9G8F+6X
   code = OpenLocationCode.encode(47.365590, 8.524997, 12) #8FVC9G8F+6XQH
  
-  code_area = OpenLocationCode.decode(code)
+  code_area = OpenLocationCode.decode('8FVC9G8F+6XQH')
   # #<OpenLocationCode::CodeArea:0x007fe7eb050110 @latitude_lo=47.36557499999997, @longitude_lo=8.524968750000008, @latitude_hi=47.36557499999997, @longitude_hi=8.52500000000001, @code_length=12, @latitude_center=47.36557499999997, @longitude_center=8.52498437500001>
 ```
 
@@ -39,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/open_location_code/fork )
+1. Fork it ( https://github.com/jiren/open_location_code )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
