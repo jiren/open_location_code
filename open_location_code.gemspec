@@ -9,7 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jiren"]
   spec.email         = ["jirenpatel@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
+  spec.summary       = %q{Open Location Codes are a way of encoding location into a form that is
+    easier to use than latitude and longitude.}
   spec.description   = %q{Open Location Codes are a way of encoding location into a form that is
   easier to use than latitude and longitude.}
   spec.homepage      = "https://github.com/jiren/open_location_code"
