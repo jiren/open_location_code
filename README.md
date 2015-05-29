@@ -10,7 +10,7 @@ Ref:  https://github.com/google/open-location-code
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'open_location_code', github: 'jiren/open_location_code'
+gem 'open_location_code'
 ```
 
 And then execute:
