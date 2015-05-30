@@ -107,3 +107,8 @@ module OpenLocationCode
   end
 
 end
+
+if defined?(Rails)
+  require 'rails/olc'
+end
+
