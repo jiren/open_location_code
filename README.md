@@ -50,7 +50,7 @@ Or install it yourself as:
   In Model:
 
 ```
-  class Event < < ActiveRecord::Base
+  class Event << ActiveRecord::Base
     include Olc
 
     has_olc
